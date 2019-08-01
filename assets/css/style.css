@@ -4743,3 +4743,13 @@ select:focus {
   background-image: linear-gradient(to right, #fc4a1a, #f7b733);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+
+  .dconva {
+  font-family: 'Asap', sans-serif; font-weight: bold; font-style: italic;
+  font-size: 12px;
+  background-image: -moz-linear-gradient(55deg, #75b2f0 0%, #75f094);
+  background-image: -webkit-linear-gradient(55deg, #75b2f0 0%, #75f094);
+  background-image: -ms-linear-gradient(55deg, #75b2f0 0%, #75f094);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }

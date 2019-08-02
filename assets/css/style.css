@@ -1027,6 +1027,7 @@ select:focus {
     .navigation .navbar #mainmenu ul .nav-item .nav-link {
       color: #242424;
       position: relative;
+      font-weight: bold;
       padding: 25px 10px 25px; }
       .navigation .navbar #mainmenu ul .nav-item .nav-link::before {
         position: absolute;
@@ -1068,22 +1069,25 @@ select:focus {
     .navigation .navbar #mainmenu ul .nav-item.dropdown:hover .dropdown-menu {
       display: block;
       padding: 0px;
+      border-radius: 0px 0px 7px 7px;
+      opacity: 0.7;
       margin-top: 0px;
-      border: 0px;
-      border-radius: 0px;
       -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
-      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06); }
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
+       }
       .navigation .navbar #mainmenu ul .nav-item.dropdown:hover .dropdown-menu .dropdown-item {
-        background: #fff;
         padding: 10px 20px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.185);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         -webkit-transition: all 0.3s ease-in;
         -o-transition: all 0.3s ease-in;
-        transition: all 0.3s ease-in; }
+        transition: all 0.3s ease-in;
+        font-weight: bold;
+        color: #8B0000;
+        background: rgba(255, 255, 255, 0.7);   }
         .navigation .navbar #mainmenu ul .nav-item.dropdown:hover .dropdown-menu .dropdown-item:hover {
-          background: #ddd; }
+          color: #FF6347; }
         .navigation .navbar #mainmenu ul .nav-item.dropdown:hover .dropdown-menu .dropdown-item:last-child {
-          border-bottom: 0px; }
+         border-radius: 0px 0px 7px 7px;  }
 
 /*---------------------------
 ** Main Menu Area End
@@ -3690,11 +3694,13 @@ select:focus {
         transition: all 0.3s ease-in; }
         .blog-aside .archives .archives-list li a:hover {
           color: #9191ff; }
-
+.tags {
+  width: 280px;
+}
 .blog-aside .tags {
   border: 1px solid #e5e9f4;
   padding: 22px 30px 15px;
-  margin-top: 30px; }
+  margin-top: 0px; }
   .blog-aside .tags .title {
     font-size: 24px;
     line-height: 34px;
@@ -3707,7 +3713,7 @@ select:focus {
     background-image: -moz-linear-gradient(55deg, #DC143C 0%, #8B0000);
     background-image: -webkit-linear-gradient(55deg, #DC143C 0%, #8B0000);
     background-image: -ms-linear-gradient(55deg, #DC143C 0%, #8B0000);
-    width: 160px;
+    width: 120px;
     height: 3px;
     display: block;
     margin: 0 auto; }

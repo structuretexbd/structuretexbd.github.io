@@ -4386,6 +4386,14 @@ select:focus {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
+.bltpoint {
+  width: 10px;
+  height: 12px;
+  border-radius: 5px;
+  background: #FFD700;
+  color: #FFD700;
+  margin-right: 6px;
+}
 /*---------------------------
 ** Index Color 3 Area Start
 ---------------------------*/
